@@ -1,0 +1,2 @@
+-- Exercise 04 - c
+-- Municipalities: all municipalities in the country containing 'Pamplona' (case-insensitive)

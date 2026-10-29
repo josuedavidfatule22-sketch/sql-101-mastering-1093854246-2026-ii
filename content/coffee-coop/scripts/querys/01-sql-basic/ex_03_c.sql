@@ -1,17 +1,6 @@
 -- Exercise 03 - c
 -- Certifications: filter certifications with premium per kg greater than or equal to 350 COP
 
-/*
-
-                                                      Tabla «farm.certifications»
-      Columna       |          Tipo          | Ordenamiento | Nulable  |                          Por omisión                          
---------------------+------------------------+--------------+----------+---------------------------------------------------------------
- certification_id   | integer                |              | not null | nextval('farm.certifications_certification_id_seq'::regclass)
- certification_name | character varying(80)  |              | not null | 
- issuing_body       | character varying(100) |              | not null | 
- premium_per_kg     | numeric(10,2)          |              | not null | 0
-*/
-
 SELECT
     T1.certification_name AS certification,
     T1.issuing_body AS issuer,
