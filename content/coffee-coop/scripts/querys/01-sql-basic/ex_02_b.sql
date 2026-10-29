@@ -4,7 +4,7 @@
 SELECT 
     T1.variety_id AS variety, 
     T1.species, 
-    T1.description 
+    T1.description  
 FROM 
     farm.coffee_varieties AS T1
 WHERE 
